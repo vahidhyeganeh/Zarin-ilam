@@ -1,0 +1,39 @@
+
+
+.firstRowHeader {
+    font-size: 13px;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.firstRowHeader a {
+
+    color: white;
+}
+
+.secondRowHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background-color: gray;*/
+    height: auto;
+    padding: 10px;
+}
+
+.secondRowHeader a {
+    color: black;
+}
+
+.thirdRowHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    height: 45px;
+
+}

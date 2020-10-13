@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Shabnam';
+    src: url(./../src/media/fonts/shabnabm/Shabnam-FD.ttf);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-Bold-FD.eot);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-Bold-FD.ttf);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-Bold-FD.woff);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-Bold-FD.woff2);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-FD.eot);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-FD.woff);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-FD.woff2);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-Light-FD.eot);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-Light-FD.ttf);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-Light-FD.woff);
+    src: url(./../src/media/fonts/shabnabm/Shabnam-Light-FD.woff2);
+    src: url(./../src/media/fonts/vaziri/Vazir.woff);
+    src: url(./../src/media/fonts/vaziri/Vazir.ttf);
+    src: url(./../src/media/fonts/vaziri/Vazir-Black.ttf);
+    src: url(./../src/media/fonts/vaziri/Vazir-Bold.ttf);
+    src: url(./../src/media/fonts/vaziri/Vazir-Light.ttf);
+    src: url(./../src/media/fonts/vaziri/Vazir-Medium.ttf)
+}
+
+body {
+    font-family: "Shabnam" !important;
+        direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+Button{
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .loginBtn , .logo {
+        display: none;
+    }
+
+
+}
